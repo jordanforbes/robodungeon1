@@ -1,7 +1,7 @@
 import pygame 
 import os
 
-WIDTH, HEIGHT = 800, 700
+WIDTH, HEIGHT = 600, 600
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Robo Dungeon")
 
@@ -16,7 +16,7 @@ BACKGROUND = pygame.transform.scale(BACKGROUND_IMG,(600,600))
 
 def draw_window():
     WIN.fill(BLACK)
-    WIN.blit(BACKGROUND, (50,50))
+    WIN.blit(BACKGROUND, (0,0))
     pygame.display.update()
 
 def main():
